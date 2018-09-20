@@ -15,6 +15,12 @@
 		7AA4D96721533EF30001696A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4D96621533EF30001696A /* main.m */; };
 		7AA4D97121533EF30001696A /* HQLogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4D97021533EF30001696A /* HQLogTests.m */; };
 		7AA4D97C21533EF30001696A /* HQLogUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4D97B21533EF30001696A /* HQLogUITests.m */; };
+		7AA4D99621533F9C0001696A /* shot1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AA4D99321533F9B0001696A /* shot1.png */; };
+		7AA4D99721533F9C0001696A /* shot2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AA4D99421533F9B0001696A /* shot2.png */; };
+		7AA4D99821533F9C0001696A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7AA4D99521533F9B0001696A /* README.md */; };
+		7AA4D99F215340470001696A /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4D99A215340470001696A /* NSArray+Log.m */; };
+		7AA4D9A0215340470001696A /* NSDictionary+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4D99D215340470001696A /* NSDictionary+Log.m */; };
+		7AA4D9A1215340470001696A /* NSString+unicode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4D99E215340470001696A /* NSString+unicode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,15 @@
 		7AA4D97721533EF30001696A /* HQLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HQLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AA4D97B21533EF30001696A /* HQLogUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQLogUITests.m; sourceTree = "<group>"; };
 		7AA4D97D21533EF30001696A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AA4D99321533F9B0001696A /* shot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shot1.png; sourceTree = "<group>"; };
+		7AA4D99421533F9B0001696A /* shot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shot2.png; sourceTree = "<group>"; };
+		7AA4D99521533F9B0001696A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7AA4D999215340470001696A /* NSString+unicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+unicode.h"; sourceTree = "<group>"; };
+		7AA4D99A215340470001696A /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		7AA4D99B215340470001696A /* NSDictionary+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Log.h"; sourceTree = "<group>"; };
+		7AA4D99C215340470001696A /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		7AA4D99D215340470001696A /* NSDictionary+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Log.m"; sourceTree = "<group>"; };
+		7AA4D99E215340470001696A /* NSString+unicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+unicode.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +116,20 @@
 		7AA4D95621533EF10001696A /* HQLog */ = {
 			isa = PBXGroup;
 			children = (
+				7AA4D99C215340470001696A /* NSArray+Log.h */,
+				7AA4D99A215340470001696A /* NSArray+Log.m */,
+				7AA4D99B215340470001696A /* NSDictionary+Log.h */,
+				7AA4D99D215340470001696A /* NSDictionary+Log.m */,
+				7AA4D999215340470001696A /* NSString+unicode.h */,
+				7AA4D99E215340470001696A /* NSString+unicode.m */,
 				7AA4D95721533EF10001696A /* AppDelegate.h */,
 				7AA4D95821533EF10001696A /* AppDelegate.m */,
 				7AA4D95A21533EF10001696A /* ViewController.h */,
 				7AA4D95B21533EF10001696A /* ViewController.m */,
 				7AA4D95D21533EF10001696A /* Main.storyboard */,
+				7AA4D99521533F9B0001696A /* README.md */,
+				7AA4D99321533F9B0001696A /* shot1.png */,
+				7AA4D99421533F9B0001696A /* shot2.png */,
 				7AA4D96021533EF30001696A /* Assets.xcassets */,
 				7AA4D96221533EF30001696A /* LaunchScreen.storyboard */,
 				7AA4D96521533EF30001696A /* Info.plist */,
@@ -235,9 +259,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AA4D99821533F9C0001696A /* README.md in Resources */,
 				7AA4D96421533EF30001696A /* LaunchScreen.storyboard in Resources */,
 				7AA4D96121533EF30001696A /* Assets.xcassets in Resources */,
 				7AA4D95F21533EF10001696A /* Main.storyboard in Resources */,
+				7AA4D99621533F9C0001696A /* shot1.png in Resources */,
+				7AA4D99721533F9C0001696A /* shot2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +290,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AA4D95C21533EF10001696A /* ViewController.m in Sources */,
+				7AA4D99F215340470001696A /* NSArray+Log.m in Sources */,
 				7AA4D96721533EF30001696A /* main.m in Sources */,
+				7AA4D9A1215340470001696A /* NSString+unicode.m in Sources */,
+				7AA4D9A0215340470001696A /* NSDictionary+Log.m in Sources */,
 				7AA4D95921533EF10001696A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
